@@ -1,0 +1,77 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    height: 80px;
+    z-index: 50;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu ul li {
+    margin-right: 1.5rem;
+}
+
+.logo span {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+
+.user{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.button{
+    border-radius: 3px;
+    font-size: 16px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-weight: 700;
+    cursor: pointer;
+    color: white;
+    background-color: green;
+}
+
+.button_signup{
+    border-radius: 3px;
+    font-size: 16px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-weight: 700;
+    cursor: pointer;
+    color: green;
+    background-color: white;
+}
+
+
+@media screen and (max-width:445px){
+    .button_signup{
+        padding: 10px 10px;
+        font-weight: 300;
+        font-size: 10px;
+        
+    }
+    .button{
+        padding: 10px 10px;
+        font-weight: 300;
+        font-size: 10px;
+    }
+  }

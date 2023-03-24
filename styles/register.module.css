@@ -1,0 +1,91 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 66vh;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+.Wrapper{
+    width: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 20px;
+    border-radius: 10px;
+    gap: 10px;
+    background-color: white;
+    position: relative;
+}
+
+.close{
+    font-size: larger;
+    font-weight: 800;
+    width: 30px;
+    height: 30px;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    cursor: pointer;
+    position: absolute;
+    top: -5px;
+    right: -2px;
+}
+
+.title{
+    font-size: 24px;
+}
+
+.subtitle{
+   font-size: 20px;
+   font-weight: 300;
+}
+
+.input{
+    border: 1px solid rgb(52, 51, 51);
+    font-size: 16px;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: transparent;
+    outline: none;
+    width: 60%;
+}
+
+.button{
+    border-radius: 3px;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: green;
+    cursor: pointer;
+}
+
+.link{
+    color: green;
+    text-decoration: underline;
+}
+
+.copy{
+    margin-top: 5px;
+    margin-bottom: 3px;
+    color: green;
+}
+
+
+  
+  @media screen and (max-width:445px){
+    .Wrapper{
+        width: 200px;
+    }
+    
+    .nav_link{
+      font-size: 16px;
+    }
+  }
